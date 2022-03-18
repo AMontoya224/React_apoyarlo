@@ -11,10 +11,10 @@ class PersonCard extends Component {
                     {this.props.firstName}, {this.props.lastName}
                 </h1>
                 <h4>
-                    Age: {this.props.age}
+                    Age: <b>{this.props.age}</b>
                 </h4>
                 <h4>
-                    Hair color: {this.props.hairColor}
+                    Hair color: <b>{this.props.hairColor}</b>
                 </h4>
             </div>
         );
